@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+body {
+  background: linear-gradient(to right, rgba(250, 208, 160, 0.3), rgba(206, 206, 247, 0.5));
+  
+}
+
+div.container {
+  position: relative;
+  margin: 70px auto;
+  width: 350px;
+  height: 470px;
+  text-align: center;
+  background: #fff;
+  cursor: default
+}
+
+img.img-fruit {
+  width: 290px;
+  margin-top: -60px;
+
+}
+
+
+div.control-btn span {
+  position: absolute;
+  margin-top: 20px;
+  width: 35px;
+  height: 35px;
+  background: #f22d34;
+  color: #fff;
+  font-size: 13px;
+  display: inline-block;
+  line-height: 36px;
+  cursor: pointer;
+  border-radius: 100%;
+  box-shadow: 0px 2px 7px rgba(241, 44, 51, 0.7);
+  transition: background 0.3s ease-in;
+}
+
+span.prev {
+  left: -17.5px
+}
+
+span.next {
+  right: -17.5px
+}
+
+h3 {
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin-top: 35px;
+  color: #ea1d24
+}
+
+p {
+  font-size: 11px;
+  padding: 15px 45px;
+  color: #878787;
+  line-height: 22px
+}
+
+table {
+  padding-left: 20px;
+  padding-right: 10px;
+  /* padding-top: 5px; */
+  margin-top: 30px;
+  margin-bottom: 0;
+  text-align: center;
+  color: #757575;
+}
+
+td,
+th {
+  padding: 10px;
+}
+.atcbtn {
+
+  padding: 5px 45px;
+  background: #f22d34;
+  border-radius: 30px;
+  margin-left: 5%;
+  margin-top: 60px;
+  color: white;
+  border: none;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  box-shadow: 0px 15px 45px rgba(242, 45, 52, 0.5);
+  transition: background 0.3s ease-in;
+  cursor: pointer;
+
+}
+
+.atcbtn {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
